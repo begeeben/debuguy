@@ -106,6 +106,29 @@ If nothing breaks, then you are good. :+1:
 
 It's time to hack! :neckbeard:
 
+### Folder Structure
+
+    debuguy
+      ├── bower_components
+      ├── example
+      ├── lib
+      ├── node_modules
+      ├── public
+      ├── reporter
+      │   ├── images
+      │   ├── scripts
+      │   ├── styles
+      │   └── index.html
+      └── test
+
+* bower_components: Packages installed by ```bower```. No need to manually modify this. Change package dependencies in bower.json.
+* example: Sample files for trying debuguy functionalities.
+* lib: ```debuguy``` libraries.
+* node_modules: node modules installed by npm. No need to manually modify this. Change module dependencies in package.json.
+* public: The production build of the HTML5 reporter. Created with ```grunt build```.
+* reporter: The source code of the HTML5 reporter. Developing the reporter using ```grunt serve``` with ```LiveReload``` support.
+* test: Test codes.
+
 ## License
 
 Copyright &copy; 2014 seiyugi

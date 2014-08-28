@@ -1,0 +1,8 @@
+{
+  "name": "debuguy",
+  "private": true,
+  "dependencies": {
+    "d3": "~3.4.11"
+  },
+  "devDependencies": {}
+}
